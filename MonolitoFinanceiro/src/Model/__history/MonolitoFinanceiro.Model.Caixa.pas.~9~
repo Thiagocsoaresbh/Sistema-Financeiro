@@ -1,0 +1,37 @@
+unit MonolitoFinanceiro.Model.Caixa;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt, Datasnap.Provider,
+  Data.DB, Datasnap.DBClient, FireDAC.Comp.DataSet, FireDAC.Comp.Client;
+
+type
+  TDataModule3 = class(TDataModule)
+    fdqCaixa: TFDQuery;
+    cdsCaixa: TClientDataSet;
+    dspCaixa: TDataSetProvider;
+    cdsCaixaID: TStringField;
+    cdsCaixaNUMERO_DOC: TStringField;
+    cdsCaixaDESCRICAO: TStringField;
+    cdsCaixaVALOR: TFMTBCDField;
+    cdsCaixaTIPO: TStringField;
+    cdsCaixaDATA_CADASTRO: TDateTimeField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dmCaixa: TDataModule3;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

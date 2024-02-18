@@ -1,0 +1,21 @@
+object dmUsuarios: TdmUsuarios
+  Height = 480
+  Width = 640
+  object fdqUsuarios: TFDQuery
+    Connection = DataModule1.FDConexao
+    Left = 32
+    Top = 32
+  end
+  object cdsUsuarios: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dspUsuarios'
+    Left = 192
+    Top = 32
+  end
+  object dspUsuarios: TDataSetProvider
+    DataSet = fdqUsuarios
+    Left = 112
+    Top = 32
+  end
+end

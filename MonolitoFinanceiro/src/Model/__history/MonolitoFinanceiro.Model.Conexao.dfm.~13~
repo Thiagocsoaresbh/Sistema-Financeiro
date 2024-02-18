@@ -1,0 +1,24 @@
+object DataModule1: TDataModule1
+  OnCreate = DataModuleCreate
+  Height = 480
+  Width = 640
+  object FDConexao: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio' +
+        '\Projects\MonolitoFinanceiro\src\bd\SistemaFinanceiro.fdb'
+      'User_Name=SYSDBA'
+      'Server=localhost'
+      'Password=masterkey'
+      'CharLenMode='
+      'DriverID=FB')
+    Transaction = FDTransaction
+    Left = 128
+    Top = 136
+  end
+  object FDTransaction: TFDTransaction
+    Connection = FDConexao
+    Left = 288
+    Top = 192
+  end
+end

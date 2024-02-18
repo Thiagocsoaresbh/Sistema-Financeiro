@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/01/07 16:09:35.000.366,=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/07 16:13:38.000.057,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Principal.pas</Transaction>
+    <Transaction>2024/01/07 16:13:38.000.057,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Principal.dfm</Transaction>
+    <Transaction>2024/01/07 16:14:17.000.340,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\MonolitoFinanceiro.dproj</Transaction>
+    <Transaction>2024/01/07 16:38:47.000.712,=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/07 16:39:58.000.618,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.CadastroPadrao.pas</Transaction>
+    <Transaction>2024/01/07 16:39:58.000.618,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.dfm=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.CadastroPadrao.dfm</Transaction>
+    <Transaction>2024/01/07 19:14:26.000.404,=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/07 19:15:04.000.367,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Splash.pas=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/07 19:15:04.000.367,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Splash.dfm=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2024/01/08 19:59:16.000.050,=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/08 19:59:56.000.641,=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/08 20:05:16.000.298,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Conexao.dfm=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2024/01/08 20:05:16.000.298,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Conexao.pas=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/09 19:54:21.000.337,=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/09 19:55:24.000.100,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.dfm=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.dfm</Transaction>
+    <Transaction>2024/01/09 19:55:24.000.100,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Usuarios.pas=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/11 19:26:17.000.528,=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit2.pas</Transaction>
+    <Transaction>2024/01/11 19:27:29.000.684,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit2.dfm=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Usuarios.dfm</Transaction>
+    <Transaction>2024/01/11 19:27:29.000.684,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit2.pas=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Usuarios.pas</Transaction>
+    <Transaction>2024/01/13 20:35:12.000.449,=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/13 20:37:00.000.907,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\Util\MonolitoFinanceiro.Utilitarios.pas=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/14 16:40:27.000.504,=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/14 16:40:48.000.066,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Login.pas</Transaction>
+    <Transaction>2024/01/14 16:40:48.000.066,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.dfm=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\View\MonolitoFinanceiro.View.Login.dfm</Transaction>
+    <Transaction>2024/01/14 19:23:36.000.610,=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/14 19:27:23.000.857,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\Model\Entidade\MonolitoFinanceiro.Model.Entidades.Usuarios.pas=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit1.pas</Transaction>
+    <Transaction>2024/01/22 19:50:27.486,=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit2.pas</Transaction>
+    <Transaction>2024/01/22 19:57:15.907,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Sistema.dfm=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit2.dfm</Transaction>
+    <Transaction>2024/01/22 19:57:15.907,C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\src\Model\MonolitoFinanceiro.Model.Sistema.pas=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio\Projects\MonolitoFinanceiro\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

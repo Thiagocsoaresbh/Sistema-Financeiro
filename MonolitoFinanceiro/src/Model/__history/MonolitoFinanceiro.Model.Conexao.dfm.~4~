@@ -1,0 +1,28 @@
+object DataModule1: TDataModule1
+  Height = 480
+  Width = 640
+  object FDConexao: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\William\OneDrive\Documentos\Embarcadero\Studio' +
+        '\Projects\MonolitoFinanceiro\src\bd\SistemaFinanceiro.fdb'
+      'User_Name=SYSDBA'
+      'Server=localhost'
+      'Password=masterkey'
+      'DriverID=FB')
+    Transaction = FDTransaction
+    Left = 128
+    Top = 136
+  end
+  object FDTransaction: TFDTransaction
+    Connection = FDConexao
+    Left = 288
+    Top = 192
+  end
+  object FDUsuarios: TFDQuery
+    Connection = FDConexao
+    Transaction = FDTransaction
+    Left = 200
+    Top = 272
+  end
+end

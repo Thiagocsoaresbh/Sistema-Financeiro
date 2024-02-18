@@ -1,0 +1,74 @@
+unit MonolitoFinanceiro.Model.Caixa;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt, Datasnap.Provider,
+  Data.DB, Datasnap.DBClient, FireDAC.Comp.DataSet, FireDAC.Comp.Client,
+  MonolitoFinanceiro.Model.Entidades.Caixa.Resumo;
+
+type
+  TdmCaixa = class(TDataModule)
+    fdqCaixa: TFDQuery;
+    cdsCaixa: TClientDataSet;
+    dspCaixa: TDataSetProvider;
+    cdsCaixaNUMERO_DOC: TStringField;
+    cdsCaixaDESCRICAO: TStringField;
+    cdsCaixaVALOR: TFMTBCDField;
+    cdsCaixaTIPO: TStringField;
+    cdsCaixaID: TStringField;
+    cdsCaixaDATA_CADASTRO: TDateField;
+  private
+    { Private declarations }
+    Function GetSaldoAnterior(Data: TDate) : Currency;
+    Function GetTotalEntradasCaixa(DataInicial, DataFinal: TDate) : Currency;
+    Function GetTotalSaidasCaixa(DataInicial, DataFinal: TDate) : Currency;
+  public
+    { Public declarations }
+    function ResumoCaixa(DataInicial, DataFinal: TDate) : TModelResumoCaixa;
+  end;
+
+var
+  dmCaixa: TdmCaixa;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+{ TdmCaixa }
+
+function TdmCaixa.GetSaldoAnterior(Data: TDate): Currency;
+var
+  SQLConsulta : TFDQuery;
+  TotalEntradas : Currency;
+  TotalSaidas : Currency;
+begin
+  SQLConsulta := TFDQuery.Create(nil);
+  try
+    SQLConsulta.Connection := dmConexao.sqlConexao;
+  finally
+    SQLConsulta.Free;
+  end;
+end;
+
+function TdmCaixa.GetTotalEntradasCaixa(DataInicial,
+  DataFinal: TDate): Currency;
+begin
+
+end;
+
+function TdmCaixa.GetTotalSaidasCaixa(DataInicial, DataFinal: TDate): Currency;
+begin
+
+end;
+
+function TdmCaixa.ResumoCaixa(DataInicial, DataFinal: TDate): TModelResumoCaixa;
+begin
+
+end;
+
+end.

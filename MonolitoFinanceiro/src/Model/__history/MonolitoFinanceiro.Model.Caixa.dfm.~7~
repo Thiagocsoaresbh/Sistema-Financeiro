@@ -1,0 +1,48 @@
+object DataModule3: TDataModule3
+  Height = 480
+  Width = 640
+  object fdqCaixa: TFDQuery
+    Connection = DataModule1.FDConexao
+    Left = 32
+    Top = 32
+  end
+  object cdsCaixa: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dspCaixa'
+    Left = 192
+    Top = 32
+    object cdsCaixaid: TStringField
+      FieldName = 'id'
+      Size = 36
+    end
+    object cdsCaixanome: TStringField
+      FieldName = 'nome'
+      Size = 50
+    end
+    object cdsCaixalogin: TStringField
+      FieldName = 'login'
+    end
+    object cdsCaixasenha: TStringField
+      FieldName = 'senha'
+      Size = 60
+    end
+    object cdsCaixastatus: TStringField
+      FieldName = 'status'
+      Size = 1
+    end
+    object cdsCaixadata_cadastro: TDateField
+      FieldName = 'data_cadastro'
+    end
+    object cdsCaixasenha_temporaria: TStringField
+      FieldName = 'senha_temporaria'
+      Size = 1
+    end
+  end
+  object dspCaixa: TDataSetProvider
+    DataSet = fdqCaixa
+    Options = [poAllowCommandText, poUseQuoteChar]
+    Left = 112
+    Top = 32
+  end
+end
